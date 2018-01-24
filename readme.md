@@ -8,8 +8,8 @@
 </p>
 
 ## How to run
--git clone
--switch to laravel
--cd to folder
--run 'composer install'
--run 'php artisan serve'
+- git clone
+- switch to laravel
+- cd to folder
+- run 'composer install'
+- run 'php artisan serve'
