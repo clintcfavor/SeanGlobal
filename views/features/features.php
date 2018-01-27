@@ -12,7 +12,6 @@ License URI: http://www.themevault.net/license/-->
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="icon" href="../../images/icons/favicon.png"/>
         <title>Sean Global Skrrrr</title>
-        <link href="../../css/pricing.css" rel="stylesheet" media="all">
         <link href="../../css/scrolling-nav.css" rel="stylesheet" media="all">
         <!-- Bootstrap core CSS -->
         <link href="../../css/bootstrap.min.css" rel="stylesheet">
@@ -20,6 +19,7 @@ License URI: http://www.themevault.net/license/-->
         <!-- Custom styles for this template -->
         <link href="../../css/magnific-popup.css" rel="stylesheet">
         <link href="../../css/pricing.css" rel="stylesheet">
+        <link href="../../css/features.css" rel="stylesheet" media="all">
         <link rel="stylesheet" href="../../css/lightbox.min.css">
         <link href="../../css/responsive.css" rel="stylesheet">
         <script src="../../js/jquery.min.js" type="text/javascript"></script>
@@ -58,10 +58,10 @@ License URI: http://www.themevault.net/license/-->
                            <!--  <li><a href="#about">about</a></li>
                             <li><a href="#skill">skill</a></li>
                             <li><a href="#professional">professional</a></li>
-                            <li><a href="#services">services</a></li> -->
+                            <li><a href="#accounting">accounting</a></li> -->
                             <li><a href="../../views/features/features.php">features</a></li>
                             <li><a href="#portfolio">portfolio</a></li>
-                            <li><a href="#pricing">pricing</a></li>
+                            <li><a href="../../views/pricing/pricing.php">pricing</a></li>
                             <li class="nav-logo-container"><div class="nav-logo"><a href="#myPage"><img src="../../images/logo-mid.png"></a></div></li>
                             <!-- <li><a href="#portfolio">portfolio</a></li>
                             <li><a href="#testimonials">testimonials</a></li>
@@ -75,13 +75,13 @@ License URI: http://www.themevault.net/license/-->
 
             </div>
         </nav>
-        <div class="pricing-banner-full-image">
+        <div class="features-banner-full-image">
 
             <div class="banner-content">
                 <div class="col-set">
                     <div class="left">
                         <div class="title">
-                            <h1>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</h1>
+                            <h1>Take control of your portfolio, your business, and your life with residential and association management software</h1>
                         </div>
                     </div>
                 </div>
@@ -89,59 +89,56 @@ License URI: http://www.themevault.net/license/-->
         </div>
         <div class="clearfix"></div>
 
-        <section id="services-block" class="">
+        <section id="accounting-block" class="">
             <div>
                 <div class="col-set">
-                    <div class="col col-lg-3 col-md-3 col-sm-12 pricing-navigation-list">
+                    <div class="col col-lg-3 col-md-3 col-sm-12 accounting-navigation-list">
                         <ul>
-                            <li class="manage-unit-navigation active">
-                                <h3><span id="manage-unit">MANAGE UNIT</span></h3>
+                            <li class="accounting-navigation active">
+                                <h3><span id="accounting">ACCOUNTING</span></h3>
+                                <li class="sublist">Property Accounting</li>
+                                <li class="sublist">Company Financials</li>
+                                <li class="sublist">Online Payments</li>
+                                <li class="sublist">1099 Efiling</li>
                             </li>
-                            <li class="additional-service-navigation">
-                                <h3><span id="additional-service">ADDITIONAL SERVICES AVAILABLE</span></h3>
+                            <li class="business-operation-navigation">
+                                <h3><span id="business-operation">BUSINESS OPERATIONS</span></h3>
                             </li>
+                            <li class=""
                         </ul>
                     </div>
-                    <div class="col-md-9 pricing-content">
-                        <div class="manage-unit-content">
-                            <div class="col-md-12 services-header">
-                                <h3>NUMBER OF UNITS YOU MANAGE</h3>
+                    <div class="col-md-9 features-content">
+                        <div class="accounting-content">
+                            <div class="col-md-12 accounting-header">
+                                <h3>FEATURES</h3>
                             </div>
-                            <div class="col-md-12 manage-unit-content">
-                                <div id="slider"></div>
-                            </div>
-                        </div>
-                        <div class="services-content" style="display: none;">
-                            <div class="col-md-12 services-header">
-                                <h3>ADDITIONAL SERVICES AVAILABLE</h3>
-                            </div>
-                            <div class="col-md-12 services-content-container">
-                                <div class="col-md-6 services-content">
-                                    <div class="services-content-header">
-                                        <h4>RENTERS INSURANCE</h4>
-                                        <p>Protect yourself and your tenants by requiring renters insurance.</p>
-                                        <p><strong>$14.50</strong> per tenant per month</p>
+                            <div class="col-md-12 accounting-content-container">
+                                <div class="col-md-6 accounting-content">
+                                    <div class="accounting-content-header">
+                                        <h4>PROPERTY ACCOUNTING</h4>
+                                        <p>Securely manage bank accounts, accept rent and create valuable reporting.</p>
+                                        <a href="#" class="btn btn-success"><strong>Learn more</strong></a>
                                     </div>
                                 </div>
-                                <div class="col-md-6 services-content">
-                                    <div class="services-content-header">
-                                        <h4>RENTERS INSURANCE</h4>
-                                        <p>Protect yourself and your tenants by requiring renters insurance.</p>
-                                        <p><strong>$14.50</strong> per tenant per month</p>
+                                <div class="col-md-6 accounting-content">
+                                    <div class="accounting-content-header">
+                                        <h4>COMPANY FINANCIALS</h4>
+                                        <p>Monitor and report on business expenses alongside property expenses.</p>
+                                        <a href="#" class="btn btn-success"><strong>Learn more</strong></a>
                                     </div>
                                 </div>
-                                <div class="col-md-6 services-content">
-                                    <div class="services-content-header">
-                                        <h4>RENTERS INSURANCE</h4>
-                                        <p>Protect yourself and your tenants by requiring renters insurance.</p>
-                                        <p><strong>$14.50</strong> per tenant per month</p>
+                                <div class="col-md-6 accounting-content">
+                                    <div class="accounting-content-header">
+                                        <h4>ONLINE PAYMENTS</h4>
+                                        <p>Make and accept payments online for rent, association fees and vendors.</p>
+                                        <a href="#" class="btn btn-success"><strong>Learn more</strong></a>
                                     </div>
                                 </div>
-                                <div class="col-md-6 services-content">
-                                    <div class="services-content-header">
-                                        <h4>RENTERS INSURANCE</h4>
-                                        <p>Protect yourself and your tenants by requiring renters insurance.</p>
-                                        <p><strong>$14.50</strong> per tenant per month</p>
+                                <div class="col-md-6 accounting-content">
+                                    <div class="accounting-content-header">
+                                        <h4>1099 EFILING</h4>
+                                        <p>Save time during tax by filing 1099s online through --</p>
+                                        <a href="#" class="btn btn-success"><strong>Learn more</strong></a>
                                     </div>
                                 </div>
                             </div>
@@ -151,7 +148,7 @@ License URI: http://www.themevault.net/license/-->
             </div>
         </section>
         <section id="newsletter">
-            <div class="container col-lg-12">
+            <div class="container col-lg-12 col-sm-12">
                 <div class="col-md-3"></div>
                 <div class="col-md-4">
                     <h3>SUBSCRIBE TO OUR NEWSLETTER TO RECEIVE UPDATES.</h3>
@@ -284,13 +281,13 @@ License URI: http://www.themevault.net/license/-->
                 $(this).addClass('active');
                 
             });
-            $('.manage-unit-navigation').on('click', function(){
-                $('.manage-unit-content').css('display','inline-block');
-                $('.services-content').css('display', 'none');
+            $('.accounting-navigation').on('click', function(){
+                $('.accounting-content').css('display','inline-block');
+                $('.accounting-content').css('display', 'none');
             });
             $('.additional-service-navigation').on('click', function(){
-                $('.manage-unit-content').css('display','none');
-                $('.services-content').css('display', 'inline-block');
+                $('.accounting-content').css('display','none');
+                $('.accounting-content').css('display', 'inline-block');
             });
         });
         $("#slider").slider({
